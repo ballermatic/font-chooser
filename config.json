@@ -1,0 +1,120 @@
+[
+  {
+    "name": "Cabinet Grotesk",
+    "type": "local",
+    "family": "CabinetGrotesk-Light",
+    "body-weight": "300",
+    "display-weight": "600",
+    "path": "fonts/CabinetGrotesk-Variable.woff2"
+  },
+  {
+    "name": "Clash Display",
+    "type": "local",
+    "family": "ClashDisplay-Variable",
+    "body-weight": "300",
+    "display-weight": "600",
+    "path": "fonts/ClashDisplay-Variable.woff2"
+  },
+  {
+    "name": "Clash Grotesk",
+    "type": "local",
+    "family": "ClashGrotesk-Variable",
+    "body-weight": "300",
+    "display-weight": "600",
+    "path": "fonts/ClashGrotesk-Variable.woff2"
+  },
+  {
+    "name": "Gambetta",
+    "type": "local",
+    "family": "Gambetta-Variable",
+    "body-weight": "300",
+    "display-weight": "600",
+    "path": "fonts/Gambetta-Variable.woff2",
+    "path-italic": "fonts/Gambetta-VariableItalic.woff2"
+  },
+  {
+    "name": "Satoshi",
+    "type": "local",
+    "family": "Satoshi-Variable",
+    "body-weight": "300",
+    "display-weight": "600",
+    "path": "fonts/Satoshi-Variable.woff2",
+    "path-italic": "fonts/Satoshi-VariableItalic.woff2"
+  },
+  {
+    "name": "Geist",
+    "type": "local",
+    "family": "Geist",
+    "body-weight": "300",
+    "display-weight": "600",
+    "path": "fonts/Geist.woff2"
+  },
+  {
+    "name": "Mona Sans",
+    "type": "local",
+    "family": "Mona Sans",
+    "body-weight": "300",
+    "display-weight": "600",
+    "path": "fonts/MonaSans.woff2"
+  },
+  {
+    "name": "Outfit",
+    "type": "google",
+    "family": "Outfit",
+    "body-weight": "300",
+    "display-weight": "600",
+    "path": "https://fonts.googleapis.com/css2?family=Outfit:wght@300..600&display=swap"
+  },
+  {
+    "name": "Manrope",
+    "type": "google",
+    "family": "Manrope",
+    "body-weight": "300",
+    "display-weight": "600",
+    "path": "https://fonts.googleapis.com/css2?family=Manrope:wght@300..600&display=swap"
+  },
+  {
+    "name": "Lexend",
+    "type": "google",
+    "family": "Lexend",
+    "body-weight": "300",
+    "display-weight": "600",
+    "path": "https://fonts.googleapis.com/css2?family=Lexend:wght@300..600&display=swap"
+  },
+  {
+    "name": "Barlow",
+    "type": "google",
+    "family": "Barlow",
+    "body-weight": "300",
+    "display-weight": "600",
+    "path": "https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,600;1,300;1,600&display=swap"
+  },
+  {
+    "name": "TT Commons Pro",
+    "type": "adobe",
+    "family": "tt-commons-pro",
+    "body-weight": "200",
+    "display-weight": "500"
+  },
+  {
+    "name": "Degular",
+    "type": "adobe",
+    "family": "degular-variable",
+    "body-weight": "300",
+    "display-weight": "600"
+  },
+  {
+    "name": "Freight Sans",
+    "type": "adobe",
+    "family": "freight-sans-pro",
+    "body-weight": "300",
+    "display-weight": "600"
+  },
+  {
+    "name": "Freight Serif",
+    "type": "adobe",
+    "family": "freight-display-pro",
+    "body-weight": "300",
+    "display-weight": "600"
+  }
+]

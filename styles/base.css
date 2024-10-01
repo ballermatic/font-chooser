@@ -1,0 +1,63 @@
+body {
+  font-weight: 300;
+  font-family: sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 600;
+  line-height: 1.125;
+  margin-bottom: 1rem;
+}
+h1 {
+  font-size: 3rem;
+}
+h2 {
+  font-size: 2.5rem;
+}
+h3 {
+  font-size: 2rem;
+}
+h4 {
+  font-size: 1.73rem;
+}
+h5 {
+  font-size: 1.44rem;
+}
+p {
+  margin-bottom: 1.25em;
+}
+.huge {
+  font-size: 5rem;
+  line-height: 1.125;
+}
+.large {
+  font-size: 1.125rem;
+}
+.small {
+  font-size: 0.875rem;
+}
+.italic {
+  font-style: italic;
+}
+.mono {
+  font-family: monospace;
+  line-height: 1;
+  padding: 0.25rem;
+  border-bottom: 1px solid;
+}
+/* Layout */
+main {
+  margin: 0 auto;
+  max-width: 75ch;
+  padding: 1rem;
+}
+section {
+  padding: 2rem 0;
+}
+header {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+  padding: 0.25rem;
+}
