@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -23,7 +24,17 @@
       href="styles/base.css" />
   </head>
   <body>
-    <header><nav>dropdowns here</nav></header>
+    <header>
+      <nav>
+        <select id="bodyFont">
+          <option value="">Select Body Font</option>
+        </select>
+        <select id="displayFont">
+          <option value="">Select Display Font</option>
+        </select>
+        <button id="toggleMode">Toggle Dark Mode</button>
+      </nav>
+    </header>
     <main>
       <section>
         <h1>Wandering Quails Deploy Eucalyptus Photons</h1>
@@ -33,45 +44,39 @@
         <h5>Maximum Wonderment Subtle Franchise</h5>
       </section>
       <hr />
-      <section class="italic">
-        <h1>Wandering Quails Deploy Eucalyptus Photons</h1>
-        <h2>Burgeoning Mythical Xylophones Glisten</h2>
-        <h3>Kingly Sparrows Fly the Evening Plains</h3>
-        <h4>Brisk Ferns Envelop Damp Pathways</h4>
-        <h5>Maximum Wonderment Subtle Franchise</h5>
-      </section>
-      <hr />
       <section>
         <p class="large">
-          In a verdant glen, quirky zebras whispered enigmatic tales under the
-          moon’s glow. Juxtaposing realms, cryptic foxes danced by the sapphire
-          lakes, their shadows entwining with twilight’s embrace. Nearby,
-          whimsical jays orchestrated a symphony, echoing through the serene
-          canopy of the enchanted forest.
+          This is larger body text. In a verdant glen, quirky zebras whispered
+          enigmatic tales under the moon's glow. Juxtaposing realms, cryptic
+          foxes danced by the sapphire lakes, their shadows entwining with
+          twilight's embrace. Nearby, whimsical jays orchestrated a symphony,
+          echoing through the serene canopy of the enchanted forest.
         </p>
         <h2>Heading Level Two In Context</h2>
         <p>
-          On a sun-drenched street, the aroma of fresh pastries wafted from a
-          bustling café, merging with the city’s vibrant pulse.
+          This is normal sized body text. On a sun-drenched street, the aroma of
+          fresh pastries wafted from a bustling café, merging with the city's
+          vibrant pulse.
           <em
             >A breeze whispered through the trees, carrying snippets of chatter
             and the distant hum of traffic.</em
           >
         </p>
-        <h3>And Here’s a Third Level Heading</h3>
+        <h3>And Here's a Third Level Heading</h3>
         <p>
           <b>In the heart of downtown</b>, modern sculptures stood juxtaposed
-          against historic buildings, their silhouettes a testament to time’s
+          against historic buildings, their silhouettes a testament to time's
           passage. The evening sky, painted in hues of orange and purple, draped
           over the skyline, its colors reflecting in the glass facades of
           towering skyscrapers.
         </p>
         <p class="small">
-          The primitive formless base of matter similar to chaos, the
-          quintessence or aether. In alchemy and philosophy, prima materia,
-          materia prima or <em>“first matter,”</em> is the ubiquitous starting
-          material required for the alchemical magnum opus and the creation of
-          the philosopher’s stone.
+          This is smaller body text. The primitive formless base of matter
+          similar to chaos, the quintessence or aether. In alchemy and
+          philosophy, prima materia, materia prima or
+          <em>"first matter,"</em> is the ubiquitous starting material required
+          for the alchemical magnum opus and the creation of the philosopher's
+          stone.
         </p>
       </section>
       <hr />
@@ -82,6 +87,15 @@
           ( ) [ ] { } - _ / \ @ # $ % ^ & * + = < > ~
         </p>
       </section>
+      <hr />
+      <section>
+        <h2 class="huge">
+          A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i
+          j k l m n o p q r s t u v w x y z 0 1 2 3 4 5 6 7 8 9 . , ! ? : ; ' "
+          ( ) [ ] { } - _ / \ @ # $ % ^ & * + = < > ~
+        </h2>
+      </section>
     </main>
+    <script src="js/main.js"></script>
   </body>
 </html>
