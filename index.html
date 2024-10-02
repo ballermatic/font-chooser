@@ -27,12 +27,26 @@
     <header>
       <nav>
         <select id="bodyFont">
-          <option value="">Select Body Font</option>
+          <option value="">Body Font</option>
         </select>
+        <input
+          type="number"
+          id="bodyWeight"
+          min="100"
+          max="900"
+          step="100"
+          placeholder="Weight" />
         <select id="displayFont">
-          <option value="">Select Display Font</option>
+          <option value="">Display Font</option>
         </select>
-        <button id="toggleMode">Toggle Dark Mode</button>
+        <input
+          type="number"
+          id="displayWeight"
+          min="100"
+          max="900"
+          step="100"
+          placeholder="Weight" />
+        <button id="toggleMode">Dark/Light</button>
       </nav>
     </header>
     <main>

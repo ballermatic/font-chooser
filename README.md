@@ -1,1 +1,1 @@
-`npx ai-digest`
+Bare bones webfont selection tool.

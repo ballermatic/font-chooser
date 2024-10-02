@@ -63,7 +63,7 @@
     "family": "Outfit",
     "body-weight": "300",
     "display-weight": "600",
-    "path": "https://fonts.googleapis.com/css2?family=Outfit:wght@300..600&display=swap"
+    "path": "https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
   },
   {
     "name": "Manrope",
@@ -71,7 +71,7 @@
     "family": "Manrope",
     "body-weight": "300",
     "display-weight": "600",
-    "path": "https://fonts.googleapis.com/css2?family=Manrope:wght@300..600&display=swap"
+    "path": "https://fonts.googleapis.com/css2?family=Manrope:wght@100..900&display=swap"
   },
   {
     "name": "Lexend",
@@ -79,7 +79,7 @@
     "family": "Lexend",
     "body-weight": "300",
     "display-weight": "600",
-    "path": "https://fonts.googleapis.com/css2?family=Lexend:wght@300..600&display=swap"
+    "path": "https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap"
   },
   {
     "name": "Barlow",

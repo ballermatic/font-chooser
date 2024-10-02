@@ -1,3 +1,6 @@
+let currentBodyFont = null;
+let currentDisplayFont = null;
+
 // Fetch and parse the config.json file
 fetch('config.json')
   .then((response) => response.json())
@@ -7,6 +10,8 @@ fetch('config.json')
 
     const bodySelect = document.getElementById('bodyFont');
     const displaySelect = document.getElementById('displayFont');
+    const bodyWeightInput = document.getElementById('bodyWeight');
+    const displayWeightInput = document.getElementById('displayWeight');
 
     // Populate dropdowns
     fonts.forEach((font) => {
@@ -20,16 +25,38 @@ fetch('config.json')
     // Event listeners for font selection
     bodySelect.addEventListener('change', updateBodyFont);
     displaySelect.addEventListener('change', updateDisplayFont);
+
+    // Event listeners for weight inputs
+    bodyWeightInput.addEventListener('change', updateBodyWeight);
+    displayWeightInput.addEventListener('change', updateDisplayWeight);
   });
 
 function updateBodyFont() {
-  const font = JSON.parse(this.value);
-  updateFont(font, 'body');
+  currentBodyFont = JSON.parse(this.value);
+  updateFont(currentBodyFont, 'body');
+  document.getElementById('bodyWeight').placeholder =
+    currentBodyFont['body-weight'];
 }
 
 function updateDisplayFont() {
-  const font = JSON.parse(this.value);
-  updateFont(font, 'display');
+  currentDisplayFont = JSON.parse(this.value);
+  updateFont(currentDisplayFont, 'display');
+  document.getElementById('displayWeight').placeholder =
+    currentDisplayFont['display-weight'];
+}
+
+function updateBodyWeight() {
+  if (currentBodyFont) {
+    currentBodyFont['body-weight'] = this.value;
+    updateFont(currentBodyFont, 'body');
+  }
+}
+
+function updateDisplayWeight() {
+  if (currentDisplayFont) {
+    currentDisplayFont['display-weight'] = this.value;
+    updateFont(currentDisplayFont, 'display');
+  }
 }
 
 function updateFont(font, type) {
@@ -76,10 +103,6 @@ function applyFont(font, type) {
 
   if (type === 'body') {
     applyStyles(document.body);
-    // Apply body font to all elements except headings
-    document
-      .querySelectorAll('body *:not(h1):not(h2):not(h3):not(h4):not(h5)')
-      .forEach(applyStyles);
   } else {
     document.querySelectorAll('h1, h2, h3, h4, h5').forEach(applyStyles);
   }
