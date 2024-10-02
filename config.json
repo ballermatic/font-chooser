@@ -107,7 +107,7 @@
     "name": "Freight Sans",
     "type": "adobe",
     "family": "freight-sans-pro",
-    "body-weight": "300",
+    "body-weight": "400",
     "display-weight": "600"
   },
   {
@@ -115,6 +115,6 @@
     "type": "adobe",
     "family": "freight-display-pro",
     "body-weight": "300",
-    "display-weight": "600"
+    "display-weight": "700"
   }
 ]
